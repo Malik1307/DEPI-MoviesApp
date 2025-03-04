@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>USER</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 </head>
 <body>
+
     <!-- navBar -->
     <nav class="navbar">
         <div id="iconNav">
@@ -46,8 +48,16 @@
                 <p class="private">Your Watchlist is private. <a href="#">Edit</a></p>
             </div>
             <div class="watchlist-empty">
-                <h3>No Watchlist yet</h3>
-                <p>Create a watchlist to track movies and shows you want to watch.</p>
+                <h3>My Movie Watch List</h3>
+                <!-- Swiper Slider -->
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Movies will be inserted here -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
         <div>
             <button class="Browse">Browse popular movies</button>
@@ -96,6 +106,9 @@
             </div>
         </div>
     </footer>
-    
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+          <!-- Custom JS -->
+          <script src="script.js"></script>
 </body>
 </html>

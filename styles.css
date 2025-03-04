@@ -135,6 +135,19 @@
     align-items: center;
 }
 
+.swiper {
+    width: 80%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .highlight {
     display: inline-block;
     width: 4px;
